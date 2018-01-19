@@ -1,0 +1,281 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        width: 950px;
+        margin: auto;
+    }
+    #slider_bar {
+        height: 700px;
+    }    
+    #slide_item:nth-of-type(4) h1, #slide_item:nth-of-type(1) h1 {
+        margin: 250px 0 0 0;
+    }
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+     .container {
+        width: 740px;
+        margin: auto;
+    }
+    #hire_botton {
+    text-align: center;
+    }
+    #slide_item:nth-of-type(3) h1 {
+    margin: 59px 0 0 62px;
+    }
+    #slide_item #slide_caption h1 {
+    font-size: 100px;
+    }
+    #slide_item #slide_caption span {
+    font-size: 100px;
+    }
+
+    #slide_item:nth-of-type(2) #slide_caption {
+    float: right;
+    margin-right: 30px;
+    }
+    #slide_item:nth-of-type(2) h1, #slide_item:nth-of-type(5) h1 {
+    text-align: center;
+    color: #ff2400;
+    margin: 0;
+    }
+    #slide_item:nth-of-type(2) span, #slide_item:nth-of-type(5) span {
+    text-align: center;
+    color: #f94903;
+    margin: 0;
+    }
+    #slide_item:nth-of-type(4) h1, #slide_item:nth-of-type(1) h1 {
+        margin: 150px 0 0 0;
+    }
+    #slider_bar {
+        height: 725px;
+    } 
+    #my_img {
+    width: 100%;
+    text-align: center;
+    }
+    #about_me {
+    width: 100%;
+    }
+    #project_view {
+    width: 47%;
+    }
+}
+
+
+
+
+@media (min-width: 600px) and (max-width: 767px) {
+    .container {
+    width: 98%;
+    }
+    #slider_bar {
+        height: 500px;
+    } 
+    #hire_botton {
+    text-align: center;
+    }
+    #slide_item #slide_caption h1 {
+    font-size: 100px;
+    }
+    #slide_item #slide_caption span {
+    font-size: 100px;
+    margin: 0;
+
+    }
+    #slide_item:nth-of-type(2) h1, #slide_item:nth-of-type(5) h1 {
+    text-align: center;
+    color: #ff2400;
+    margin: 0;
+    }
+    #slide_item:nth-of-type(2) span, #slide_item:nth-of-type(5) span {
+    text-align: center;
+    color: #f94903;
+    margin: 0;
+    }
+    #slide_item:nth-of-type(2) #slide_caption {
+    float: right;
+    margin-right: 30px;
+    }
+    #slide_item:nth-of-type(3) h1 {
+    margin: 0px 0 0 62px;
+    }
+    #slide_item:nth-of-type(4) h1, #slide_item:nth-of-type(1) h1 {
+        margin: 125px 0 0 0;
+    }
+    #my_img {
+    width: 100%;
+    text-align: center;
+    }
+    #about_me {
+    width: 100%;
+    }
+    #progress {
+    width: 48%;
+    }
+    #project_view {
+    width: 47%;
+    }
+    #contact {
+    width: 100%;
+    }
+    #contact_form {
+    width: 100%;
+    margin-top: 64px;
+    }
+    #contact h1 {
+    text-align: center;
+    }
+
+}
+
+@media (max-width: 599px) {
+    .container {
+    width: 98%;
+    }
+    #hire_botton {
+    text-align: center;
+    }
+    #slide {
+        display: none;
+    }
+    #my_img {
+    width: 100%;
+    text-align: center;
+    }
+    #about_me {
+    width: 100%;
+    }
+    #progress {
+    width: 48%;
+    }
+    #project_view {
+    width: 47%;
+    }
+    #contact {
+    width: 100%;
+    }
+    #contact_form {
+    width: 100%;
+    margin-top: 64px;
+    }
+    #contact h1 {
+    text-align: center;
+    }
+    #img_div {
+    width: 100%;
+    }
+    #img_div img {
+    width: 100%;
+    }
+    #about {
+    margin: 0;
+    }
+    #about_descption h1 {
+    text-align: center;
+    }
+    #progress {
+    width: 98%;
+    }
+    #skill h1, #project h1 {
+    font-size: 29px;
+    }
+    #project_view {
+    width: 97%;
+    }
+    .work_description {
+    display: none;
+    }
+    #work_experience {
+    height: 250px;
+    }
+    #name {
+    width: 100%;
+    margin-bottom: 24px;
+    }
+    #email {
+    width: 100%;
+    }
+    footer #social_contact {
+    text-align: center;
+    width: 100%;
+    }
+    footer #social_contact ul {
+    display: inline-block;
+    }
+    footer #footer_structure {
+    text-align: center;
+    width: 100%;
+    }
+    p {
+    margin-bottom: 0;
+    }
+    #logo_main {
+    margin: auto;
+    }
+    #logo {
+    width: 100%;
+    }
+    #slide {
+    display: none;
+    }
+
+
+    /*Mobile Menu*/
+    header {
+    padding: 0 10px 0 0;
+    }
+    #menu ul li {
+    width: 100%;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    }
+    #menu ul li ul li {
+    width: 75%;
+    border: 1px solid #E5E5E5;
+    margin-left: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+    left: 0;
+    }
+    #menu ul li ul {
+    position: relative;
+    }
+    #menu ul li ul li ul li {
+    width: 93%;
+    border: 1px solid #E5E5E5;
+    margin-left: 9%;
+    position: relative;
+    left: 0;
+    }
+    #menu {
+    width: 100%;
+    float: none;
+    overflow: hidden;
+    padding: 12px 0;
+    display: none;
+    }
+    #menu_bar {
+    width: 98%;
+    float: none;
+    margin-left: 2%;
+    }
+    #mobile_menu {
+    display: block;
+    cursor: pointer;
+    }
+    #project_menu ul li {
+    width: 46%;
+    margin-left: 3%;
+    box-sizing: border-box;
+    }
+    #control_work_experience {
+        margin-left: 39%;
+    }
+    #contact p {
+    width: 98%;
+    margin-left: 1%;
+    }
+ }
